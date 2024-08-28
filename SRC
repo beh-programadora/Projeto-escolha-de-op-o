@@ -1,0 +1,33 @@
+
+# Exibição do menu
+print("escolha uma operação:")
+print("1. adição")
+print("2. subtração")
+print("3. multiplicação")
+print("4. divisão")
+
+# Leitura da escolha do usuário 
+opcao = int(input("digite o primeiro número: "))
+
+# leitura dos números 
+numero1 = float(input("digite o primeiro número: "))
+numero2 = float(input("digite o segundo número: "))
+
+# realização da operação com base na escolha 
+if opcao == 1:
+    resultado = numero1 + numero2
+elif opcao == 2:
+    resultado = numero1 - numero2
+elif opcao == 3:
+    resultado = numero1 * numero2
+elif opcao == 4:
+    if numero2 != 0:
+        resultado = numero1 / numero2
+    else:
+        resultado = "erro: divisão por zero"
+else:
+    resultado = "opção inválida"
+
+# Exibição do resultado
+print(f"resultado:{resultado}")
+
