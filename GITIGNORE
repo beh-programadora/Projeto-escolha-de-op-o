@@ -1,0 +1,41 @@
+
+---
+
+### .gitignore
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+Enunciado
+Projeto: Calculadora Simples
+
+Desenvolva um script em Python que permita ao usuário realizar operações matemáticas básicas (adição, subtração, multiplicação e divisão) entre dois números fornecidos.
+
+Requisitos:
+
+O script deve exibir um menu com as operações disponíveis: adição, subtração, multiplicação e divisão.
+O usuário deve poder escolher uma das operações.
+O script deve solicitar ao usuário dois números para realizar a operação escolhida.
+O resultado da operação deve ser exibido ao usuário.
+O script deve lidar com a divisão por zero, retornando uma mensagem de erro adequada.
+Critérios de Avaliação:
+
+Correção das operações realizadas.
+Exibição clara e precisa do resultado.
+Tratamento adequado de erros (como divisão por zero).
+Estrutura e clareza do código.
